@@ -5,7 +5,7 @@ const ProductItem = ({product}) => {
     <>
       <div class="max-w-xs mx-auto">
         <div class="bg-white rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a className='outline-0' href="#">
               <img class="rounded-t-lg p-2" src={product.image} alt="" />
             </a>
             <div class="px-5 pb-5">

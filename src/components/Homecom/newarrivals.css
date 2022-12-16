@@ -1,0 +1,27 @@
+.ugd-title span {
+    background-color: #ffffff;
+}
+
+.ugd-title::before {
+    background-color: rgb(75, 85, 99);
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    z-index: -1;
+}
+
+.ugd-title::after {
+    background-color: rgb(75, 85, 99);
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    z-index: -1;
+}

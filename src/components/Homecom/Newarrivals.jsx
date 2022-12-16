@@ -2,11 +2,12 @@ import React from 'react';
 import Slider from 'react-slick';
 import Data from '../../Data';
 import ProductItem from '../ProductItem';
+import './newarrivals.css';
 
 const Newarrivals = () => {
 
     const sliderSettings = {
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 3,
         infinite: true,
         dots: false,
@@ -14,7 +15,7 @@ const Newarrivals = () => {
             {
               breakpoint: 1950,
               settings: {
-                slidesToShow: 6,
+                slidesToShow: 5,
                 slidesToScroll: 3,
                 infinite: true,
                 dots: false
@@ -23,7 +24,7 @@ const Newarrivals = () => {
             {
                 breakpoint: 1525,
                 settings: {
-                  slidesToShow: 5,
+                  slidesToShow: 4,
                   slidesToScroll: 3,
                   infinite: true,
                   dots: false
@@ -32,7 +33,7 @@ const Newarrivals = () => {
             {
                 breakpoint: 1270,
                 settings: {
-                  slidesToShow: 4,
+                  slidesToShow: 3,
                   slidesToScroll: 2,
                   infinite: true,
                   dots: false
@@ -63,8 +64,11 @@ const Newarrivals = () => {
       };
 
   return (
-    <div>
-        <h1 className='font-bold text-7xl text-center font-body text-gray-800'>New Arrivals</h1>
+    <div className='overflow-hidden'>
+      <div className='max-w-screen-md mx-auto mt-10'>
+        <h1 className='relative font-bold text-6xl text-center font-body text-gray-800 ugd-title'><span>New Arrivals</span></h1>
+      </div>
+      <div className='max-w-screen-2xl mx-auto mt-10'>
         <Slider {...sliderSettings}>
             {
             Data.map(product =>{
@@ -73,6 +77,7 @@ const Newarrivals = () => {
             })
         }
         </Slider>
+      </div>
     </div>
   )
 }
