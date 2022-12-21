@@ -10,19 +10,16 @@ const TrendProd = () => {
         </div>
        <div>
       <section class="bg-white dark:bg-gray-900">
-    
-    <div class="container px-6 py-8 mx-auto">
-                  <div class="grid gap-3 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                      {
-                Data.map(product =>{
-                    
-                return <ProductItem className="mx-auto justify-center" key={product.id} product={product} />
-                })
+        <div class="container px-6 py-8 mx-auto">
+          <div class="grid gap-3 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {
+              Data.map(product =>{
+              return <ProductItem className="mx-auto justify-center" key={product.id} product={product} />
+              })
             }
-            
+          </div>
         </div>
-    </div>
-</section>
+      </section>
     </div>
     </div>
   )
