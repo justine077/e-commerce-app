@@ -29,10 +29,10 @@ const Hero = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={HeroImg1} alt='Hero1'/></SwiperSlide>
-        <SwiperSlide><img src={HeroImg2} alt='Hero2'/></SwiperSlide>
-        <SwiperSlide><img  src={HeroImg3} alt='Hero3'/></SwiperSlide>
-        <SwiperSlide><img  src={HeroImg4} alt='Hero4'/></SwiperSlide>
+        <SwiperSlide><a href="/product"><img src={HeroImg1} alt='Hero1'/></a></SwiperSlide>
+        <SwiperSlide><a href="/product"><img src={HeroImg2} alt='Hero2'/></a></SwiperSlide>
+        <SwiperSlide><a href="/product"><img  src={HeroImg3} alt='Hero3'/></a></SwiperSlide>
+        <SwiperSlide><a href="/product"><img  src={HeroImg4} alt='Hero4'/></a></SwiperSlide>
       </Swiper>
     </div>
   )
