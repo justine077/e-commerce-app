@@ -64,9 +64,9 @@ const Newarrivals = () => {
       };
 
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden mt-20'>
       <div className='max-w-screen-md mx-auto mt-10'>
-        <h1 className='relative font-bold text-6xl text-center font-body text-gray-800 ugd-title'><span>New Arrivals</span></h1>
+        <h1 className='relative font-bold text-5xl text-center font-body text-gray-700 ugd-new-title uppercase'><span>New Arrivals</span></h1>
       </div>
       <div className='max-w-screen-2xl mx-auto mt-10'>
         <Slider {...sliderSettings}>

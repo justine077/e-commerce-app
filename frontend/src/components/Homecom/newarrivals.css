@@ -2,11 +2,19 @@
     background-color: #ffffff;
 }
 
+.ugd-new-title span {
+    background-color: #ffffff;
+}
+
+.trend-all {
+    margin-top: 7.5rem;
+}
+
 .ugd-title::before {
     background-color: rgb(75, 85, 99);
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     left: 0;
     position: absolute;
     top: 50%;
@@ -18,8 +26,32 @@
     background-color: rgb(75, 85, 99);
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     right: 0;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    z-index: -1;
+}
+
+.ugd-new-title::before {
+    background-color: rgb(75, 85, 99);
+    content: "";
+    display: block;
+    height: 1px;
+    left: 10%;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    z-index: -1;
+}
+
+.ugd-new-title::after {
+    background-color: rgb(75, 85, 99);
+    content: "";
+    display: block;
+    height: 1px;
+    right: 10%;
     position: absolute;
     top: 50%;
     width: 100px;
