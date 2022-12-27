@@ -8,7 +8,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      'body': ['Cairo', 'Helvetica', 'Arial', 'sans-serif']
+      'body': ['Poppins', 'sans-serif']
     }
   },
   plugins: [

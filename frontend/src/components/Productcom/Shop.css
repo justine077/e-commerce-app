@@ -84,6 +84,8 @@ img {
     }
 }
 
+
+
 @media screen and (max-width: 280px) {
     .container1 {
         --num-cols: 2;

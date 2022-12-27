@@ -148,8 +148,23 @@
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 515px) {
+    .ugd-fil-btn li {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        
+    }
     
+    .ugd-li-btn {
+        width: auto;
+        letter-spacing: 3px;
+        border-radius: 10px;
+    }
+
+    .ugd-fil-btn {
+        margin: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 280px) {
