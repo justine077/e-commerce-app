@@ -39,9 +39,11 @@ const FilterProd = () => {
                                     <> 
                                         <div class="max-w-xs mx-auto">
                                             <div class="bg-white rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
-                                                <a className='outline-0' href="#">
-                                                <img class="rounded-t-lg p-2" src={image} alt="" />
-                                                </a>
+                                                <div className='overflow-hidden'>
+                                                    <a className='outline-0' href="#">
+                                                        <img class="rounded-t-lg p-2 hover:scale-110 duration-500" src={image} alt="" />
+                                                    </a>
+                                                </div>
                                                 <div class="px-5 pb-5 ugd-fil-title">
                                                 <a href="#">
                                                     <h3 class="text-gray-900 font-semibold text-lg tracking-tight dark:text-white mb-3" title={title}>{title}</h3>
