@@ -1,16 +1,16 @@
-.ugd-title span {
+/* .ugd-title span {
     background-color: #ffffff;
 }
 
 .ugd-new-title span {
     background-color: #ffffff;
-}
+} */
 
 .trend-all {
     margin-top: 7.5rem;
 }
 
-.ugd-title::before {
+/* .ugd-title::before {
     background-color: rgb(75, 85, 99);
     content: "";
     display: block;
@@ -56,4 +56,4 @@
     top: 50%;
     width: 100px;
     z-index: -1;
-}
+} */

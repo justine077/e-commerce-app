@@ -6,7 +6,7 @@ const TrendProd = () => {
   return (
     <div className='trend-all'>
         <div className='max-w-screen-md mx-auto mt-14'>
-            <h1 className='relative font-bold text-5xl text-center font-body text-gray-700 ugd-title uppercase'><span>Trending Products</span></h1>
+            <h1 className='relative font-bold text-5xl text-center font-body text-[#383838] ugd-title uppercase'><span>Trending Products</span></h1>
         </div>
        <div>
       <section class="bg-white dark:bg-gray-900">

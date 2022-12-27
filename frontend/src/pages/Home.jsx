@@ -3,6 +3,7 @@ import Category from '../components/Homecom/Category';
 import Newarrivals from '../components/Homecom/Newarrivals';
 import TrendProd from '../components/Homecom/TrendProd';
 import Hero from '../components/Hero/Hero'
+import Followus from '../components/Homecom/Followus';
 const Home = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Home = () => {
       <Newarrivals />
       <Category />
       <TrendProd />
+      <Followus />
     </div>
   )
 }
