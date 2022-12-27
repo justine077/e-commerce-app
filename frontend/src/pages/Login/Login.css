@@ -1,0 +1,137 @@
+.myform{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: #36B4E6;
+    margin-bottom: 1rem;
+}
+
+.main {
+    width: 470px;
+    height: 500px;
+    background-color: rgba(1, 6, 17, .86);
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#chk {
+    display: none;
+}
+
+.signup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    color: #fff;
+    font-size: 2.3rem;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+
+.signup_input {
+    width: 60%;
+    height: 40px;
+    background: #fffafa;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
+    text-align: start;
+  
+}
+
+.formbtn {
+    width: 60%;
+    height: 40px;
+    margin: 1px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #36B4E6;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 1.42857143;
+    opacity: .6;
+}
+
+
+.formbtn:hover {
+opacity: 1;}
+
+.login {
+    height: 500px;
+    background: #eee;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+
+.login label {
+    color: #36B4E6;
+    transform: scale(.6);
+}
+
+#chk:checked ~ .login {
+    transform: translateY(-500px);
+
+}
+
+#chk:checked ~ .login label {
+    transform: scale(1);
+}
+
+#chk:checked ~ .signup label {
+    transform: scale(.6);
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+margin-left: .8rem;
+margin-right: .8rem;    }
+}
+
+@media screen and (max-width: 427px) {
+    .main {
+        margin-left: .8rem;
+        margin-right: .8rem;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .main {
+        margin-left: .8rem;
+        margin-right: .8rem;
+    }
+}
+
