@@ -35,7 +35,7 @@
 }
 
 .ugd-email-input {
-    width: 100%;
+    width: 94%;
     height: 48px;
     background: #fffafa;
     justify-content: center;
@@ -52,6 +52,7 @@
     font-feature-settings: "tnum";
     text-align: start;
     margin-left: 15px;
+    margin-top: 2px;
 }
 
 .ugd-foot-email {
@@ -60,6 +61,7 @@
     width: 80%;
     height: 53px;
     background-color: #fffafa;
+    border-radius: 8px;
 }
 
 .ugd-foot-email2 {
