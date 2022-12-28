@@ -14,7 +14,7 @@ import HeroImg4 from './HeroImages/BannerImg4.png';
 
 const Hero = () => {
   return (
-    <div>
+    <div className="-z-10 mt-8">
       <Swiper
         // slidesPerView={1}
         centeredSlides={true}

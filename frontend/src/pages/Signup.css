@@ -1,0 +1,24 @@
+.ugd-search-input {
+    width: 100%;
+    height: 55px;
+    background: #fffafa;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .65);
+    font-size: 1.25rem;
+    font-variant: tabular-nums;
+    line-height: 2rem;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.ugd-nav-link a {
+    margin: 0px 10px;
+}
